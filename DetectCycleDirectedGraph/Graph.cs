@@ -46,7 +46,6 @@ namespace DetectCycleDirectedGraph
 
         public void DetectUtil(bool[] Gray, bool[] Black, int Vertex)
         {
-            Stack<int> S = new Stack<int>();
             Withe[Vertex] = false;
             Gray[Vertex] = true;
 
